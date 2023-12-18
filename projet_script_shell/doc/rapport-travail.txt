@@ -13,5 +13,5 @@
 #2023-12-14
 	- Strucutre du projet (voir la figure dans doc/figure01.png)
 	- Création de la première version du script shell (v0.1)
-		- Créer les dossiers nécessaire : iamges et temp
+		- Créer les dossiers nécessaire : images et temp
 		- Vider le contenu de temp s'il existe
