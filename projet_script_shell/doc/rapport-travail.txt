@@ -1,0 +1,15 @@
+------------------------------------------------------------------------
+#2023-12-17
+	- Traiter les options (paramètres) du fichier app.sh
+	- Créer un fichier manuel.txt (contenant l'aide du script app.sh)
+	- Préparer la strucutre du programme C
+	- Le script app.sh vérifie l'existance du programme excecutation du C
+	- Si le proramme executable C n'existe pas, le script lance la compilation (make)
+	- Réaliser le lien entre les paramètres du script app.sh et les argument du programme C
+
+------------------------------------------------------------------------
+#2023-12-14
+	- Strucutre du projet (voir la figure dans doc/figure01.png)
+	- Création de la première version du script shell (v0.1)
+		- Créer les dossiers nécessaire : iamges et temp
+		- Vider le contenu de temp s'il existe
