@@ -1,3 +1,5 @@
+#2023-12-18
+	- Ajouter le traitement d1
 ------------------------------------------------------------------------
 #2023-12-17
 	- Traiter les options (paramètres) du fichier app.sh
