@@ -39,6 +39,16 @@ if [ ! -d "$images" ]; then
   mkdir "$images"
 fi
 
+#traitement d1
+for opt1 in "$@" 
+do
+    #echo "Option : $opt";
+    if [ "$opt1" == "-d1" ]; then
+      cut -d ';' -f 4 "$cvs_file" | sort | uniq -c | -rn | head -n 10
+      exit 1
+    fi;
+done
+
 #Vérifier le dossier progc
 if [ ! -d "progc" ]; then
   echo "Erreur, pas de dossier du programme C";
