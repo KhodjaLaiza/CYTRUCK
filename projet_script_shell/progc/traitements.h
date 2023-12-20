@@ -1,8 +1,19 @@
-void traitement(char* option);
+#include <stdio.h>
+#include <string.h>
+#include <traitements.h>
 
-void traitement_d1();
+typedef struct{
+  long routeid;
+  int stepid;
+  char[100] villea;
+  char[100] villeb;
+  long distance;
+  char[100] conducter;
+}Trajet;
 
-void traitement_d2();
+typedef struct{
+
+}
 
 void traitement_l();
 
