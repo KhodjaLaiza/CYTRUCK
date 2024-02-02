@@ -291,7 +291,7 @@ do
       #echo "set label 1 'Total routes' at graph 0.90, 0.97 right" >> "$fichier_gnuplot";
       #echo "set label 2 'First town' at graph 0.90, 0.94 right" >> "$fichier_gnuplot";
       #echo "plot '$fichier_resultats' u 2 title ' ', '' u ((\$2)/2.0+rand(0)/10.0) title ' ', '' u 0:(0):xticlabel(1) w l title ''" >> "$fichier_gnuplot";
-      echo "plot for [COL=2:3] '$fichier_resultats' using COL:xticlabels(1) title 'Total routes' 'First town'" >> "$fichier_gnuplot";
+      echo "plot for [COL=2:3] '$fichier_resultats' using COL:xticlabels(1) title 'Total routes','First town'" >> "$fichier_gnuplot";
       #fin de la création du fichier gnu
 
       #sélectionner les quatre colonnes 1 (Route ID), 2 (Step ID), 3 (Town A) et 4 (Town B)
